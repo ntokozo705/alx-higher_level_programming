@@ -1,5 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include <Python.h>
-
 /**
  * print_python_list_info - Print basic list info
  * @p: PyObject list
@@ -16,7 +17,7 @@ void print_python_list_info(PyObject *p)
 	printf("[*] Size of the Python List = %d\n", _size);
 	printf("[*] Allocated = %d\n", alloc);
 
-	for (j = 0; j < size; j++)
+	for (j = 0; j < _size; j++)
 	{
 		printf("Element %d: ", j);
 
