@@ -1,1 +1,1 @@
-python3 -m doctest ./tests/*
+python3 -m doctest ./tests/1-my_list.py
